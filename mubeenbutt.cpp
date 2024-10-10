@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int mubeen_butt(int a, int b)
+int waize_arif(int a, int b)
 {
     if (a > b)
     {
@@ -22,7 +22,7 @@ int main()
     cout << "enter mubeen butt marks" << endl;
     cin >> num2;
     // calling function to calculate which is greater
-    if (mubeen_butt(num1, num2))
+    if (waize_arif(num1, num2))
     {
         cout << "waize arif better than mubeen butt" << endl;
     }
